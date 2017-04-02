@@ -1,13 +1,13 @@
 {
   "name": "complete-intro-to-react",
   "version": "1.0.0",
-  "description": "A two day workshop on a complete intro to React",
+  "description": "Complete intro to React",
   "main": "index.js",
-  "author": "Brian Holt <btholt@gmail.com>",
-  "license": "MIT",
+  "author": "Manoj Talagadadeevi",
   "scripts": {
     "lint": "eslint js/**/*.js webpack.config.js",
     "build": "webpack",
+    "dev": "webpack-dev-server",
     "watch": "npm run build -- --watch"
   },
   "dependencies": {
