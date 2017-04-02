@@ -18,5 +18,3 @@ const App = React.createClass({
 })
 
 render(<App />, document.getElementById('app'))
-
-
